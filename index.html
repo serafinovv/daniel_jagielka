@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostrzeżenie - Daniel Jagiełka</title>
+    <meta name="description" content="Ostrzeżenie przed oszustem Danielem Jagiełką, działającym pod firmą DNR Weld Design z siedzibą w Luboniu.">
+    <meta name="keywords" content="Daniel Jagielka, Daniel Jagiełka, DNR Weld Design, oszustwo, ostrzeżenie, Luboń, Poznań">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #b22222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .warning p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .warning img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .warning ul {
+            list-style-type: disc;
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+
+        .warning ul li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #b22222;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ostrzeżenie!</h1>
+            <h2>Uwaga na oszusta: Daniel Jagiełka</h2>
+        </header>
+        <main>
+            <section class="warning">
+                <p>
+                    Osoba o imieniu <strong>Daniel Jagiełka</strong>, działająca pod firmą <strong>DNR Weld Design</strong> z siedzibą w Luboniu, pobrała zaliczkę na stworzenie metalowej kontrukcji tarasu i nie wywiązała się z umowy. 
+                    Firma oferuje swoje usługi na terenie Poznania i okolic. 
+                </p>
+                <img src="Daniel_Jagielka.jpg" alt="Daniel Jagiełka" class="center-image">
+                <p>
+                    <strong>Daniel Jagiełka</strong> działa pod fałszywymi pretekstami, obiecując solidne wykonanie prac, po czym zrywa kontakt po otrzymaniu pieniędzy. 
+                    <strong>Ostrzegamy wszystkich przed nawiązywaniem jakichkolwiek transakcji z tą osobą i firmą.</strong> Jeśli spotkałeś się z podobnym problemem, poniżej znajdziesz kilka kroków, które możesz podjąć:
+                </p>
+                <ul>
+                    <li>Skontaktuj się z policją i zgłoś oszustwo.</li>
+                    <li>Zbierz wszelkie dowody, takie jak umowy, korespondencja, zdjęcia i inne dokumenty.</li>
+                    <li>Ostrzeż innych poprzez media społecznościowe lub odpowiednie fora internetowe.</li>
+                    <li>Skontaktuj się z prawnikiem, aby uzyskać poradę w sprawie dochodzenia roszczeń.</li>
+                </ul>
+                <p>
+                    Wspólnie możemy zapobiec kolejnym oszustwom i ochronić innych przed podobnymi sytuacjami. 
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Uwaga oszust - Daniel Jagiełka.</p>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const warningMessages = document.querySelectorAll('.warning p, .warning ul li');
+            warningMessages.forEach(message => {
+                message.classList.add('fade-in');
+            });
+        });
+    </script>
+</body>
+</html>
